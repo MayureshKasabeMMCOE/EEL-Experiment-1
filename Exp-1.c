@@ -2,7 +2,7 @@
 
 int main() {
     int red, yellow, green;
-    printf("Consider any one of the lights to be on, example - (1, 0, 0): ");
+    printf("Consider any one of the lights to be on, example - (1, 0, 0): \n");
     scanf("%d%d%d", &red, &yellow, &green);
 
     if (red == 1) {
@@ -15,3 +15,4 @@ int main() {
 
     return 0;
 }
+
