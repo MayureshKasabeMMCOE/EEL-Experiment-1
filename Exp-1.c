@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int red = 1, yellow = 0, green = 0;
+    int red, yellow, green;
+    printf("Consider any one of the lights to be on, example - (1, 0, 0): ");
+    scanf("%d%d%d", &red, &yellow, &green);
 
     if (red == 1) {
         printf("Stop\n");
